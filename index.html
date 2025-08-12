@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayhan Raouf | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4da6;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h2 {
+            color: #ff4da6;
+            margin-bottom: 1rem;
+        }
+        .logo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1rem;
+        }
+        .logo-card {
+            background: white;
+            border-radius: 12px;
+            padding: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .logo-card img {
+            width: 100%;
+            height: 120px;
+            object-fit: contain;
+        }
+        .placeholder {
+            border: 2px dashed #ff4da6;
+            border-radius: 10px;
+            padding: 30px 10px;
+            font-size: 0.95rem;
+            color: #ff4da6;
+        }
+        .tips {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff4da6;
+            color: white;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .email {
+            color: white;
+        }
+        @media (prefers-color-scheme: dark) {
+            body { background: #0f0f10; color: #e6e6e6; }
+            .logo-card, .tips { background: #141416; box-shadow: none; }
+            header, footer { background: #ff4da6; }
+            h2 { color: #ff8cc8; }
+            .placeholder { border-color: #ff8cc8; color: #ff8cc8; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rayhan Raouf</h1>
+        <p>Email: <a class="email" href="mailto:rayhanraouf@gmail.com">rayhanraouf@gmail.com</a></p>
+    </header>
+
+    <div class="container">
+        <h2>My Logo Designs</h2>
+        <div class="logo-gallery">
+            <div class="logo-card">
+                <div class="placeholder">Replace with your logo — logo1.png</div>
+                <!-- <img src="logo1.png" alt="Logo 1"> -->
+            </div>
+            <div class="logo-card">
+                <div class="placeholder">Replace with your logo — logo2.png</div>
+                <!-- <img src="logo2.png" alt="Logo 2"> -->
+            </div>
+            <div class="logo-card">
+                <div class="placeholder">Replace with your logo — logo3.png</div>
+                <!-- <img src="logo3.png" alt="Logo 3"> -->
+            </div>
+            <div class="logo-card">
+                <div class="placeholder">Replace with your logo — logo4.png</div>
+                <!-- <img src="logo4.png" alt="Logo 4"> -->
+            </div>
+        </div>
+
+        <div class="tips">
+            <strong>How to replace the placeholders:</strong>
+            <ol>
+                <li>Put your logo files in the same folder as this page.</li>
+                <li>Rename your files to <code>logo1.png</code>, <code>logo2.png</code>, etc. <em>or</em> edit the HTML and change the <code>src</code> to your real file names.</li>
+                <li>Uncomment the <code>&lt;img&gt;</code> tags above (remove <code>&lt;!--</code> and <code>--&gt;</code>).</li>
+                <li>Save the file and refresh the page.</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Rayhan Raouf | Designed with ❤️</p>
+    </footer>
+
+</body>
+</html>
